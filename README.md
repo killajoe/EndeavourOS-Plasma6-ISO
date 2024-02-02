@@ -43,7 +43,13 @@ sudo ./mkarchiso -v "."
 sudo ./mkarchiso -v "." 2>&1 | tee "eosiso_$(date -u +'%Y.%m.%d-%H:%M').log"
 ~~~
 
-##### 3. The .iso file appears in the `out` directory...
+##### The .iso file appears in the `out` directory...
+
+to reset build structure:
+
+```
+sudo ./reset.sh
+```
 
 
 ## Advanced
